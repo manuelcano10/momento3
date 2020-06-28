@@ -4,7 +4,7 @@ import controller from '../Controllers/ProjectController'
 const router = express.Router();
 
 router.get('/listquotes', controller.listTasks);
-router.get('/gettask', controller.getTask);
+router.get('/getquote', controller.getTask);
 router.post('/addtask', controller.addTask);
 router.delete('/deletetask', controller.deleteTask);
 router.put('/updatetask', controller.updateTask);

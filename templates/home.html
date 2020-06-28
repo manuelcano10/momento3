@@ -1,15 +1,7 @@
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-{% for message in messages %}
-  <p>{{ message }}</p>
-{% endfor %}
-{% endif %}
-{% endwith %}
-
 {% extends "layout.html"%}
 {% block content %}
     <br>
-    <h1 style="text-align: center;">Citas Asignadas</h1>
+    <h1 style="text-align: center;">Lista</h1>
     <br>
     <div class="container">
     <table class="table table-striped table-bordered">
